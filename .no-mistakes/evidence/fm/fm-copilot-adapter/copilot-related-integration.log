@@ -1,0 +1,31 @@
+FM_TEST_BEGIN 2026-09-24T11:08:30Z tests/fm-harness-precedence.test.sh family=pure-contract-unit expected_gate_skip=none
+FM_TEST_BEGIN 2026-09-24T11:08:30Z tests/fm-documentation-audiences.test.sh family=pure-contract-unit expected_gate_skip=none
+FM_TEST_BEGIN 2026-09-24T11:08:30Z tests/fm-harness-adapter-references.test.sh family=pure-contract-unit expected_gate_skip=none
+ok - harness adapter routing artifact is normalized and every target is readable
+FM_TEST_END 2026-09-24T11:08:30Z tests/fm-harness-adapter-references.test.sh exit=0 duration_ms=79 gate_skip=false
+ok - documentation inventory classifies every maintained prose surface exactly once
+ok - classification, setup routing, and maintained-prose scope fail safely
+ok - required documentation owner pointers cannot silently disappear
+ok - local links resolve while dates, versions, commands, and incident prose remain semantically reviewed
+FM_TEST_END 2026-09-24T11:08:31Z tests/fm-documentation-audiences.test.sh exit=0 duration_ms=789 gate_skip=false
+ok - a markerless harness keeps its identity under an inherited foreign marker
+ok - a harness that publishes a marker inside its own process tree is unchanged
+ok - with ancestry silent, the marker layer and its cursor-first ordering still decide
+ok - a retained cursor marker does not rename a nested claude worker
+ok - an agreeing marker keeps Pi's finer identity that ancestry cannot prove
+ok - an interpreter script-path match answers alone but never outranks a marker
+ok - a native harness binary under an interpreter shim decides at comm strength
+ok - a harness that is pid 1 of its own namespace is examined, not skipped
+ok - the descent probe reaches comm strength where the top-of-session probe sees only args
+ok - the descent probe reports no verdict from a sibling branch detection cannot reach
+ok - a foreign args-only verdict at the deepest vantage leaves the comm-strength identity intact
+ok - equal-depth descent ties prefer the comm-strength leaf regardless of spawn order
+ok - a supervision branch resolves own, crew, and secondmate to the primary's pinned harness
+ok - a supervision branch refuses to resolve a harness from a pin that names none
+ok - session start renders the Codex protocol for a Codex primary holding a retained CLAUDECODE
+FM_TEST_END 2026-09-24T11:08:38Z tests/fm-harness-precedence.test.sh exit=0 duration_ms=8166 gate_skip=false
+FM_TEST_SUMMARY total=3 failed=0 skipped_gate=0 duration_ms=8383
+FM_TEST_SUMMARY_FAMILY family=pure-contract-unit count=3 duration_ms=9034 failed=0
+FM_TEST_SLOWEST rank=1 script=tests/fm-harness-precedence.test.sh duration_ms=8166
+FM_TEST_SLOWEST rank=2 script=tests/fm-documentation-audiences.test.sh duration_ms=789
+FM_TEST_SLOWEST rank=3 script=tests/fm-harness-adapter-references.test.sh duration_ms=79

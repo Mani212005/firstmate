@@ -1,0 +1,11 @@
+FM_TEST_BEGIN 2026-09-24T11:07:06Z tests/fm-copilot-signals-live-e2e.test.sh family=unclassified expected_gate_skip=none
+ok - live: the folder-trust dialog renders without the bypass and one Enter answers it
+ok - live: COPILOT_ALLOW_ALL=true suppresses the trust dialog and the turn runs
+ok - live: session events bind the workspace and fold busy/settled
+ok - live: steering delivers and Ctrl+C aborts the turn
+ok - live: /exit stops the agent and returns the pane to its shell
+ok - copilot live signals verified end to end
+FM_TEST_END 2026-09-24T11:08:25Z tests/fm-copilot-signals-live-e2e.test.sh exit=0 duration_ms=78914 gate_skip=false
+FM_TEST_SUMMARY total=1 failed=0 skipped_gate=0 duration_ms=78986
+FM_TEST_SUMMARY_FAMILY family=unclassified count=1 duration_ms=78914 failed=0
+FM_TEST_SLOWEST rank=1 script=tests/fm-copilot-signals-live-e2e.test.sh duration_ms=78914
